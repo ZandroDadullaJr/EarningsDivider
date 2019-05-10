@@ -20,9 +20,9 @@ function calculate() {
         // var newVal = [three, five, ten, rest];
 
         el("orig").innerHTML = val;
-        el("10p").innerHTML = investment;
-        el("5p").innerHTML = food;
-        el("3p").innerHTML = misc;
+        el("investmentInput").innerHTML = investment;
+        el("foodInput").innerHTML = food;
+        el("miscInput").innerHTML = misc;
         el("diff").innerHTML = rest;
     }
     else if (OldVal == "") {
