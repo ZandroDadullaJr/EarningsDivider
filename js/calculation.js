@@ -27,9 +27,9 @@ function calculate() {
     }
     else if (OldVal == "") {
         el("orig").innerHTML = "";
-        el("10p").innerHTML = "";
-        el("5p").innerHTML = "";
-        el("3p").innerHTML = "";
+        el("investmentInput").innerHTML = "";
+        el("foodInput").innerHTML = "";
+        el("miscInput").innerHTML = "";
         el("diff").innerHTML = "";
     }
     else{
